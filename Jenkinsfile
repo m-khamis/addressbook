@@ -13,7 +13,7 @@ pipeline {
                 sh "mvn compile"
             }
         }
-        stage ("tests"){
+        stage ("test"){
             steps {
                 echo "executing tests"
                 sh "mvn test"
